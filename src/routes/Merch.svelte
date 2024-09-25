@@ -42,15 +42,16 @@
 		background-color: yellow;
 		color: black;
 		font-weight: bold;
+		font-size: 1rem;
 		padding: 4px;
 		padding-top: 6px;
 		letter-spacing: 0.03rem;
 		filter: drop-shadow(0 0.5rem 1rem #000000aa);
-		transition: transform 0.2s;
+		/* transition: transform 0.2s; */
 	}
-	.scrolling-text:hover {
-		transform: scaleY(1.3);
-	}
+	/* .scrolling-text:hover { */
+	/* 	color: blue; */
+	/* } */
 	.scrolling-text a {
 		color: black;
 	}
@@ -75,6 +76,17 @@
 		}
 		to {
 			transform: translateX(-50%);
+		}
+	}
+	@media (max-width: 800px) {
+		.scrolling-text {
+			font-size: 0.8rem;
+			padding: 2px;
+			padding-top: 4px;
+		}
+		.scrolling-container {
+			display: flex;
+			width: 554px;
 		}
 	}
 </style>

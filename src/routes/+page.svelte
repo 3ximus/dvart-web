@@ -16,7 +16,7 @@
 		<iframe
 			width="560"
 			height="315"
-			src="https://www.youtube-nocookie.com/embed/videoseries?si=tidPOaiU-SwIyUhl&amp;controls=0&amp;list=PLJipLc0D7d9ReZYUE4QTzbLtfx6Kxz6yy&autoplay=1"
+			src="https://www.youtube-nocookie.com/embed/videoseries?si=tidPOaiU-SwIyUhl&amp;controls=0&amp;list=PLJipLc0D7d9ReZYUE4QTzbLtfx6Kxz6yy&autoplay=1&mute=1"
 			title="YouTube video player"
 			frameborder="0"
 			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -70,7 +70,7 @@
 	}
 
 	.side-text.music {
-		right: -46px;
+		right: -44px;
 		top: 0;
 		margin: 0;
 	}
@@ -79,5 +79,17 @@
 		left: -50px;
 		top: 0;
 		margin: 0;
+	}
+	@media (max-width: 800px) {
+		.side-text {
+			font-size: 1.3rem;
+		}
+		.side-text.music {
+			right: -26px;
+		}
+
+		.side-text.merch {
+			left: -28px;
+		}
 	}
 </style>

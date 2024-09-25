@@ -88,4 +88,19 @@
 	footer img {
 		width: 30px;
 	}
+
+	@media (max-width: 800px) {
+		main {
+			max-width: 20rem;
+			padding-top: 68px;
+		}
+		header img {
+			width: 150px;
+			padding: 20px;
+		}
+		footer h3 {
+			font-size: 1rem;
+			margin: 5px;
+		}
+	}
 </style>
