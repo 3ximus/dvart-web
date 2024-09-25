@@ -1,12 +1,12 @@
 @font-face {
-	font-family: Helvetica;
-	src: url('$lib/fonts/HelveticaNeueBold.otf');
+	font-family: HelveticaNeue;
+	src: url('$lib/fonts/HelveticaNeueMedium.otf');
 }
 
 :root {
-	--font-body: Helvetica, sans-serif;
+	--font-body: HelveticaNeue, sans-serif;
 	--font-mono: monospace;
-	--color-bg-0: blue;
+	--color-bg-0: black;
 	--color-bg-1: #123;
 	--color-bg-2: red;
 	--color-theme-1: green;
@@ -22,7 +22,7 @@ body {
 	min-height: 100vh;
 	margin: 0;
 	background-attachment: fixed;
-	background-color: var(--color-bg-1);
+	background-color: var(--color-bg-0);
 }
 
 h1,
@@ -51,36 +51,6 @@ h1 {
 
 h2 {
 	font-size: 1rem;
-}
-
-pre {
-	font-size: 16px;
-	font-family: var(--font-mono);
-	background-color: rgba(255, 255, 255, 0.45);
-	border-radius: 3px;
-	box-shadow: 2px 2px 6px rgb(255 255 255 / 25%);
-	padding: 0.5em;
-	overflow-x: auto;
-	color: var(--color-text);
-}
-
-.text-column {
-	display: flex;
-	max-width: 48rem;
-	flex: 0.6;
-	flex-direction: column;
-	justify-content: center;
-	margin: 0 auto;
-}
-
-input,
-button {
-	font-size: inherit;
-	font-family: inherit;
-}
-
-button:focus:not(:focus-visible) {
-	outline: none;
 }
 
 @media (min-width: 720px) {

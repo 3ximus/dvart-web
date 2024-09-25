@@ -1,23 +1,33 @@
 <script>
 	import '../app.css';
+	import vlogo from '$lib/images/vlogo.png';
 </script>
 
 <div class="app">
+	<header>
+		<img src={vlogo} alt="V" />
+	</header>
+
 	<main>
 		<slot />
 	</main>
 
 	<footer>
-		<h1>MUSIC</h1>
-		<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
+		<p>Footer</p>
 	</footer>
 </div>
 
-<style>
-	.app {
+<style scoped>
+	header {
+		background-color: var(--color-bg-0);
+		width: 100%;
+		position: sticky;
 		display: flex;
-		flex-direction: column;
-		min-height: 100vh;
+		justify-content: center;
+	}
+	header img {
+		width: 300px;
+		padding: 40px;
 	}
 
 	main {
@@ -26,7 +36,7 @@
 		flex-direction: column;
 		padding: 1rem;
 		width: 100%;
-		max-width: 64rem;
+		max-width: 50rem;
 		margin: 0 auto;
 		box-sizing: border-box;
 	}
@@ -37,15 +47,5 @@
 		justify-content: center;
 		align-items: center;
 		padding: 12px;
-	}
-
-	footer a {
-		font-weight: bold;
-	}
-
-	@media (min-width: 480px) {
-		footer {
-			padding: 12px 0;
-		}
 	}
 </style>
