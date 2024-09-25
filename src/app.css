@@ -1,16 +1,26 @@
 @font-face {
 	font-family: HelveticaNeue;
 	src: url('$lib/fonts/HelveticaNeueMedium.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: HelveticaNeue;
+	src: url('$lib/fonts/HelveticaNeueBold.otf');
+	font-weight: bold;
+	font-style: normal;
+}
+@font-face {
+	font-family: HelveticaNeue;
+	src: url('$lib/fonts/HelveticaNeueHeavyItalic.otf');
+	font-weight: bold;
+	font-style: italic;
 }
 
 :root {
 	--font-body: HelveticaNeue, sans-serif;
 	--font-mono: monospace;
-	--color-bg-0: black;
-	--color-bg-1: #123;
-	--color-bg-2: red;
-	--color-theme-1: green;
-	--color-theme-2: green;
+	--color-bg: black;
 	--color-text: white;
 	--column-width: 42rem;
 	--column-margin-top: 4rem;
@@ -22,7 +32,7 @@ body {
 	min-height: 100vh;
 	margin: 0;
 	background-attachment: fixed;
-	background-color: var(--color-bg-0);
+	background-color: var(--color-bg);
 }
 
 h1,
@@ -36,7 +46,6 @@ p {
 }
 
 a {
-	color: var(--color-theme-1);
 	text-decoration: none;
 }
 
