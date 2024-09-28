@@ -3,10 +3,10 @@
 </script>
 
 <div class="container">
-	<img {src} alt="" />
+	<a href="https://ig.me/m/LOUISDVART" target="_blank">
+		<img {src} alt="" />
 
-	<div class="scrolling-text">
-		<a href="https://ig.me/m/LOUISDVART">
+		<div class="scrolling-text">
 			<div class="scrolling-container">
 				<div class="scrolling-container__item">
 					CLICK TO BUY&nbsp;&nbsp;&nbsp;<it>"VCLUB HOME KIT 24"</it>&nbsp;&nbsp;&nbsp;
@@ -18,8 +18,8 @@
 					CLICK TO BUY&nbsp;&nbsp;&nbsp;<it>"VCLUB HOME KIT 24"</it>&nbsp;&nbsp;&nbsp;
 				</div>
 			</div>
-		</a>
-	</div>
+		</div>
+	</a>
 </div>
 
 <style>

@@ -1,9 +1,11 @@
-<script>
+<script lang="ts">
 	import Merch from './Merch.svelte';
 	import merchpic1 from '$lib/images/itempic_1.jpg';
 	import merchpic2 from '$lib/images/itempic_2.jpg';
 	import merchpic3 from '$lib/images/itempic_3.jpg';
 	import merchpic4 from '$lib/images/itempic_4.jpg';
+
+	let enableMerch = true;
 </script>
 
 <svelte:head>
@@ -26,13 +28,15 @@
 		<div class="side-text music">MUSIC</div>
 	</div>
 
-	<div class="merch-section">
-		<Merch src={merchpic4}></Merch>
-		<Merch src={merchpic3}></Merch>
-		<Merch src={merchpic1}></Merch>
-		<Merch src={merchpic2}></Merch>
-		<div class="side-text merch">MERCH</div>
-	</div>
+	{#if enableMerch}
+		<div class="merch-section">
+			<Merch src={merchpic4}></Merch>
+			<Merch src={merchpic3}></Merch>
+			<Merch src={merchpic1}></Merch>
+			<Merch src={merchpic2}></Merch>
+			<div class="side-text merch">MERCH</div>
+		</div>
+	{/if}
 </section>
 
 <style>
