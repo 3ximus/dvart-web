@@ -9,13 +9,13 @@
 		<div class="scrolling-text">
 			<div class="scrolling-container">
 				<div class="scrolling-container__item">
-					CLICK TO BUY&nbsp;&nbsp;&nbsp;<it>"VCLUB HOME KIT 24"</it>&nbsp;&nbsp;&nbsp;
+					CLICK TO BUY&nbsp;&nbsp;&nbsp;<it>"HOMEKIT" by LD</it>&nbsp;&nbsp;&nbsp;
 				</div>
 				<div class="scrolling-container__item">
-					CLICK TO BUY&nbsp;&nbsp;&nbsp;<it>"VCLUB HOME KIT 24"</it>&nbsp;&nbsp;&nbsp;
+					CLICK TO BUY&nbsp;&nbsp;&nbsp;<it>"HOMEKIT" by LD</it>&nbsp;&nbsp;&nbsp;
 				</div>
 				<div class="scrolling-container__item">
-					CLICK TO BUY&nbsp;&nbsp;&nbsp;<it>"VCLUB HOME KIT 24"</it>&nbsp;&nbsp;&nbsp;
+					CLICK TO BUY&nbsp;&nbsp;&nbsp;<it>""HOMEKIT" by LD"</it>&nbsp;&nbsp;&nbsp;
 				</div>
 			</div>
 		</div>
