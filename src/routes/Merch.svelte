@@ -47,17 +47,10 @@
 		padding-top: 6px;
 		letter-spacing: 0.03rem;
 		filter: drop-shadow(0 0.5rem 1rem #000000aa);
-		/* transition: transform 0.2s; */
-	}
-	/* .scrolling-text:hover { */
-	/* 	color: blue; */
-	/* } */
-	.scrolling-text a {
-		color: black;
 	}
 	.scrolling-container {
 		display: flex;
-		width: 678px;
+		width: 592px; /* should be double the width of the text */
 		animation-name: infiniteScroll;
 		animation-duration: 5s;
 		animation-iteration-count: infinite;
