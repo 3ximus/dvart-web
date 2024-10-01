@@ -9,13 +9,13 @@
 		<div class="scrolling-text">
 			<div class="scrolling-container">
 				<div class="scrolling-container__item">
-					CLICK TO BUY&nbsp;&nbsp;&nbsp;<it>"HOMEKIT" by LD</it>&nbsp;&nbsp;&nbsp;
+					CLICK & DM TO BUY&nbsp;&nbsp;&nbsp;<it>"HOMEKIT" by LD</it>&nbsp;&nbsp;&nbsp;
 				</div>
 				<div class="scrolling-container__item">
-					CLICK TO BUY&nbsp;&nbsp;&nbsp;<it>"HOMEKIT" by LD</it>&nbsp;&nbsp;&nbsp;
+					CLICK & DM TO BUY&nbsp;&nbsp;&nbsp;<it>"HOMEKIT" by LD</it>&nbsp;&nbsp;&nbsp;
 				</div>
 				<div class="scrolling-container__item">
-					CLICK TO BUY&nbsp;&nbsp;&nbsp;<it>""HOMEKIT" by LD"</it>&nbsp;&nbsp;&nbsp;
+					CLICK & DM TO BUY&nbsp;&nbsp;&nbsp;<it>""HOMEKIT" by LD"</it>&nbsp;&nbsp;&nbsp;
 				</div>
 			</div>
 		</div>
@@ -50,7 +50,7 @@
 	}
 	.scrolling-container {
 		display: flex;
-		width: 592px; /* should be double the width of the text */
+		width: 690px; /* should be double the width of the text */
 		animation-name: infiniteScroll;
 		animation-duration: 5s;
 		animation-iteration-count: infinite;
