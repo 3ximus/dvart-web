@@ -9,7 +9,7 @@
 </script>
 
 <svelte:head>
-	<title>Louis Dvart</title>
+	<title>LOUIS DVART</title>
 	<meta name="description" content="Louis Dvart Artist Page" />
 </svelte:head>
 
