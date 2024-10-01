@@ -1,9 +1,9 @@
 <script lang="ts">
 	import Merch from './Merch.svelte';
-	import merchpic1 from '$lib/images/itempic_1.jpg';
-	import merchpic2 from '$lib/images/itempic_2.jpg';
-	import merchpic3 from '$lib/images/itempic_3.jpg';
-	import merchpic4 from '$lib/images/itempic_4.jpg';
+	import merchpic1 from '$lib/images/itempic_1.webp';
+	import merchpic2 from '$lib/images/itempic_2.webp';
+	import merchpic3 from '$lib/images/itempic_3.webp';
+	import merchpic4 from '$lib/images/itempic_4.webp';
 
 	let enableMerch = true;
 </script>
