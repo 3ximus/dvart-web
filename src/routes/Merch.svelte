@@ -4,7 +4,7 @@
 
 <div class="container">
 	<a href="https://ig.me/m/LOUISDVART" target="_blank">
-		<img {src} alt="" />
+		<img {src} alt="Louis Dvart homekit merch t-shirt" />
 
 		<div class="scrolling-text">
 			<div class="scrolling-container">
