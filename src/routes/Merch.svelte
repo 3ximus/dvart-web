@@ -9,13 +9,13 @@
 		<div class="scrolling-text">
 			<div class="scrolling-container">
 				<div class="scrolling-container__item">
-					SOLD OUT, DM FOR RESTOCK&nbsp;&nbsp;&nbsp;<it>"HOMEKIT" by LD</it>&nbsp;&nbsp;&nbsp;
+					sold out, dm for restock&nbsp;&nbsp;&nbsp;<it>"HOMEKIT" by LD</it>&nbsp;&nbsp;&nbsp;
 				</div>
 				<div class="scrolling-container__item">
-					SOLD OUT, DM FOR RESTOCK&nbsp;&nbsp;&nbsp;<it>"HOMEKIT" by LD</it>&nbsp;&nbsp;&nbsp;
+					sold out, dm for restock&nbsp;&nbsp;&nbsp;<it>"HOMEKIT" by LD</it>&nbsp;&nbsp;&nbsp;
 				</div>
 				<div class="scrolling-container__item">
-					SOLD OUT, DM FOR RESTOCK&nbsp;&nbsp;&nbsp;<it>""HOMEKIT" by LD"</it>&nbsp;&nbsp;&nbsp;
+					sold out, dm for restock&nbsp;&nbsp;&nbsp;<it>""HOMEKIT" by LD"</it>&nbsp;&nbsp;&nbsp;
 				</div>
 			</div>
 		</div>
