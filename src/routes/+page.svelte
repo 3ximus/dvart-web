@@ -8,11 +8,6 @@
 	let enableMerch = true;
 </script>
 
-<svelte:head>
-	<title>LOUIS DVART</title>
-	<meta name="description" content="Louis Dvart Artist Page" />
-</svelte:head>
-
 <section>
 	<div class="music-section">
 		<iframe
